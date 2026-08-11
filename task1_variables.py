@@ -30,6 +30,7 @@ NA_SALES = 6
 EU_SALES = 7
 JP_SALES = 8
 GLOBAL_SALES = 9
+
 # a
 total_games = len(video_game_sales)
 print(total_games)
