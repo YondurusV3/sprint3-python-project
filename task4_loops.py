@@ -20,6 +20,17 @@ video_game_sales = [
     [19, 'Brain Age', 'DS', 2005, 'Puzzle', 'Nintendo', 4.75, 9.26, 4.16, 20.22],
     [20, 'Pokemon Diamond/Pearl', 'DS', 2006, 'Role-Playing', 'Nintendo', 6.42, 4.52, 6.04, 18.36],
 ]
+RANK = 0
+NAME = 1
+PLATFORM = 2
+YEAR = 3
+GENRE = 4
+PUBLISHER = 5
+NA_SALES = 6
+EU_SALES = 7
+JP_SALES = 8
+GLOBAL_SALES = 9
+
 # a) Print games with more than 25 million global sales
 for game in video_game_sales:
     if game[GLOBAL_SALES] > 25:
